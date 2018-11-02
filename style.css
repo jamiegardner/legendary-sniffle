@@ -2,4 +2,13 @@
 
 body {
     background-color: #577399;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation-holder {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    margin: 0;
 }
