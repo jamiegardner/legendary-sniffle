@@ -9,15 +9,16 @@ body {
 {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    color: white;
+    color: #fdfdff;
     display: inline-block;
-    padding: 20px 30px;
-    width: 200px;
+    padding: 20px 5px;
+    width: 100px;
+    float: right;
 }
 
 h1
 {
-    color: #009CFF;
+    color: #393d3f;
     text-align: center;
     position: absolute;
     top: 40%;
@@ -52,23 +53,29 @@ textarea {
 
 /* ====== custom styles ====== */
 
+/* ====== Landing Page Start ====== */
 #landingPage {
     height: 100vh;
     text-align: center;
-    color: #fff;
-    border-bottom: 1px #ebebeb solid;
+    color: #fdfdff;
+    border-bottom: 1px #fdfdff solid;
 }
+
+/* ====== Landing Page Content Style ====== */
 #landingPage .content {
     position: absolute;
     top: 50%;
     left: 50%;
 }
+
+/* ====== Each Product Page ====== */
 .product {
     text-align: center;
     padding: 200px 0;
-    border-bottom: 1px #ebebeb solid;
+    border-bottom: 1px #fdfdff solid;
 }
 
+/* ====== Product Text Style ====== */
 .product p {
     max-width: 300px;
     margin: 0 auto;
@@ -76,13 +83,13 @@ textarea {
 }
 
 #product01 h2 {
-    color: #3DB3CE;
+    color: #393d3f;
 }
 #product02 h2 {
-    color: #75C695;
+    color: #393d3f;
 }
 #product03 h2 {
-    color: #F5876F;
+    color: #393d3f;
 }
 
 /* =Footer */
