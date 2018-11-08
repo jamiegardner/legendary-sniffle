@@ -1,19 +1,8 @@
 /* START OF STYLING */
-
 body {
     background-color: #577399;
     margin: 0;
     padding: 0;
-}
-
-body
-{
-
-}
-
-.nav-contaner
-{
-    background-color: darkred;
 }
 
 .nav
@@ -42,6 +31,83 @@ h1
     width: 100%;
 }
 
-.panel.green {
-    margin-bottom: 400px
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
 }
+
+textarea {
+    resize: vertical;
+}
+
+/* ===== ScrollMagic Class ====== */
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ====== custom styles ====== */
+
+#landingPage {
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px #ebebeb solid;
+}
+#landingPage .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.product {
+    text-align: center;
+    padding: 200px 0;
+    border-bottom: 1px #ebebeb solid;
+}
+
+.product p {
+    max-width: 300px;
+    margin: 0 auto;
+    color: #294D67;
+}
+
+#product01 h2 {
+    color: #3DB3CE;
+}
+#product02 h2 {
+    color: #75C695;
+}
+#product03 h2 {
+    color: #F5876F;
+}
+
+/* =Footer */
+.footer-container {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #06060d;
+}
+.footer-container .wrapper {
+    width: 80%;
+    max-width: none;
+    margin: 0 10%;
+}
+.footer-container h3 {
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal;
+}
+.footer-container a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
