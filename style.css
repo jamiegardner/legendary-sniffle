@@ -93,10 +93,43 @@ textarea {
     color: #393d3f;
 }
 
-#left-image {
-    width: 50%;
+/********************** ABOUT PAGE *******************/
+
+.block{
+    display: flex;
+    width: 100vw;
     height: 100vh;
+    text-align: center;
+}
+.left{
+    flex: 1;
+    background: #FF6133;
     background-image: url("images/studio.png");
+    height: inherit;
+}
+.right{
+    flex: 1;
+    background:#546A7B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.con-title {
+    font-size: 3vw;
+    margin-top: 90px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: .9vw;
+    font-weight: bold;
+}
+
+.p-box {
+    width: 30%;
+    height: 200px;
+    background-color: #2f8912;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* =Footer */
