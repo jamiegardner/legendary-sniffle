@@ -92,6 +92,14 @@ textarea {
     color: #393d3f;
 }
 
+#left-image {
+    width: 50%;
+    height: 100vh;
+    background-image: url("images/studio.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 /* =Footer */
 .footer-container {
     text-align: center;
