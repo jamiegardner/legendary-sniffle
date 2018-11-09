@@ -109,8 +109,10 @@ textarea {
 }
 .right{
     flex: 1;
-    background:#546A7B;
+    background:#333e48;
     font-family: 'Roboto', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
 }
 
 .con-title {
@@ -122,14 +124,25 @@ textarea {
 .tagline {
     font-size: .9vw;
     font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.who {
+    width: 59%;
+    font-size: .7vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .p-box {
-    width: 30%;
-    height: 200px;
-    background-color: #2f8912;
+    width: 55%;
+    height: 49%;
     margin-left: auto;
-    margin-right: auto ;
+    margin-right: auto;
+    text-align: justify;
+    border: 1px solid #fff;
+    padding-top: 5px;
 }
 
 /* =Footer */
