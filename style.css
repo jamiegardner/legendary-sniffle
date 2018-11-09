@@ -97,7 +97,8 @@ textarea {
     height: 100vh;
     background-image: url("images/studio.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain 100vh;
+    background-position: auto 100%;
 }
 
 /* =Footer */
