@@ -93,8 +93,18 @@ textarea {
 #product03 h2 {
     color: #393d3f;
 }
+#product04 h2 {
+    color: #393d3f;
+}
+#product05 h2 {
+    color: #393d3f;
+}
+#product06 h2 {
+    color: #393d3f;
+}
 
-/********************** ABOUT PAGE *******************/
+
+/* ====== product left side  ====== */
 
 .block{
     display: flex;
@@ -120,7 +130,7 @@ textarea {
     max-height: 100%;
 }
 
-
+/* ====== product right side  ====== */
 .alternative-block{
     display: flex;
     width: 100vw;
@@ -144,6 +154,7 @@ textarea {
 
 }
 
+/* ====== left Page Text  ====== */
 .con-title {
     font-size: 3vw;
     margin-top: 90px;
