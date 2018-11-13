@@ -156,7 +156,7 @@ textarea {
     margin-bottom: 30px;
 }
 
-/* ====== rightz Page Text  ====== */
+/* ====== Right Page Text  ====== */
 .alternative-title {
     font-size: 3vw;
     margin-top: 90px;
@@ -187,11 +187,17 @@ textarea {
 
 }
 
+/* ====== About Page ====== */
+.about-page{
+    text-align: center;
+    height: 100vh;
+}
+
 /* =Footer */
 .footer-container {
     text-align: center;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
+    color: #393d3f;
     background-color: #06060d;
 }
 .footer-container .wrapper {
