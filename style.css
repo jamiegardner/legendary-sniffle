@@ -134,25 +134,6 @@ textarea {
 
 }
 
-.alternative-title {
-    font-size: 3vw;
-    margin-top: 90px;
-    font-weight: bold;
-}
-
-.alternative-tagline {
-    font-size: .9vw;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.alternative-who {
-    width: 50%;
-    font-size: .7vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-}
 
 /* ====== left Page Text  ====== */
 .con-title {
@@ -175,7 +156,26 @@ textarea {
     margin-bottom: 30px;
 }
 
+/* ====== Right Page Text  ====== */
+.alternative-title {
+    font-size: 3vw;
+    margin-top: 90px;
+    font-weight: bold;
+}
 
+.alternative-tagline {
+    font-size: .9vw;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.alternative-who {
+    width: 50%;
+    font-size: .7vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
 
 .p-box {
     width: 50%;
