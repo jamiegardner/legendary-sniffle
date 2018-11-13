@@ -103,12 +103,6 @@ textarea {
     text-align: center;
 }
 
-.alternative-block{
-    display: flex;
-    width: 100vw;
-    height: 100%;
-    text-align: center;
-}
 
 .left{
     flex: 1;
@@ -116,7 +110,8 @@ textarea {
     max-height: 100%;
 }
 
-.alternative-left{
+
+.right{
     flex: 1;
     background:#333e48;
     font-family: 'Roboto', sans-serif;
@@ -125,7 +120,15 @@ textarea {
     max-height: 100%;
 }
 
-.right{
+
+.alternative-block{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    text-align: center;
+}
+
+.alternative-left{
     flex: 1;
     background:#333e48;
     font-family: 'Roboto', sans-serif;
