@@ -1,8 +1,6 @@
 /* START OF STYLING */
 body {
     background-color: #000000;
-    margin: 0;
-    padding: 0;
 }
 
 .nav
@@ -113,6 +111,7 @@ textarea {
     flex: 2;
     background-image: url("images/studio.png");
     max-height: 100%;
+    opacity: 0.6;
 }
 
 
@@ -123,6 +122,27 @@ textarea {
     color: #fdfdff;
     letter-spacing: 1px;
     max-height: 100%;
+}
+
+/* ====== left Page Text  ====== */
+.con-title {
+    font-size: 3vw;
+    margin-top: 90px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: .9vw;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.who {
+    width: 50%;
+    font-size: .7vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 /* ====== product right side  ====== */
@@ -146,29 +166,8 @@ textarea {
     flex: 2;
     background-image: url("images/studio.png");
     max-height: 100%;
+    opacity: 0.6;
 
-}
-
-
-/* ====== left Page Text  ====== */
-.con-title {
-    font-size: 3vw;
-    margin-top: 90px;
-    font-weight: bold;
-}
-
-.tagline {
-    font-size: .9vw;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.who {
-    width: 50%;
-    font-size: .7vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
 }
 
 /* ====== Right Page Text  ====== */
