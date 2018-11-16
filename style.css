@@ -1,6 +1,6 @@
 /* START OF STYLING */
 body {
-    background-color: #333e48;
+    background-color: #000000;
     margin: 0;
     padding: 0;
 }
@@ -22,8 +22,7 @@ h1
     color: #fdfdff;
     text-align: center;
     position: absolute;
-    top: 40%;
-    left: 0;
+    top: 25%;
     width: 100%;
     font-size: 100px;
 }
@@ -56,12 +55,11 @@ textarea {
 
 /* ====== Landing Page Start ====== */
 
-#landingPage {
+.landing-page-img{
     height: 100vh;
-    background-image: url(images/landing1.jpg);
+    width: 100vw;
     opacity: 0.8;
 }
-
 
 /* ====== Landing Page Content Style ====== */
 #landingPage .content {
