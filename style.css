@@ -1,6 +1,7 @@
 /* START OF STYLING */
 body {
     background-color: #000000;
+    overflow-x: hidden;
 }
 
 .nav
