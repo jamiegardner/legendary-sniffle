@@ -72,8 +72,13 @@ textarea {
 
 /* ===== ScrollMagic Class ====== */
 
+body {
+    font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
+}
+
 .wrapper {
-    width: 100%;
+    width: 90%;
+    margin: 0 5%;
 }
 
 /* ====== custom styles ====== */
@@ -106,6 +111,12 @@ textarea {
 .product {
     text-align: center;
     height: 100vh;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.product.fade-in{
+    opacity: 1;
 }
 
 /* ====== Product Text Style ====== */
