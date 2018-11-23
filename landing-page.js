@@ -12,4 +12,22 @@ var controller = new ScrollMagic.Controller();
         .setClassToggle('#product01', 'fade-in') //add class to product01
         .addTo(controller);
 
+    ourScene = new ScrollMagic.Scene({
+        triggerElement: '#product02'
+    })
+        .setClassToggle('#product02', 'fade-in') //add class to product01
+        .addTo(controller);
+
+    ourScene = new ScrollMagic.Scene({
+        triggerElement: '#product03'
+    })
+        .setClassToggle('#product03', 'fade-in') //add class to product01
+        .addTo(controller);
+
+    ourScene = new ScrollMagic.Scene({
+        triggerElement: '#product04'
+    })
+        .setClassToggle('#product04', 'fade-in') //add class to product01
+        .addTo(controller);
+
 });
