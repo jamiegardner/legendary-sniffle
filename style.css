@@ -1,4 +1,9 @@
 /* START OF STYLING */
+@font-face {
+    font-family: NoName;
+    src: url(fonts/no_name_37_Regular.otf);
+}
+
 body {
     background-color: #000;
     margin: 0;
@@ -21,8 +26,8 @@ body {
 .nav img {
     float: left;
     padding-left: 65px;
-    height: 140px;
-    width: 355px;
+    height: 130px;
+    width: 325px;
 }
 
 a {
@@ -35,23 +40,39 @@ a:visited {
 }
 
 h1 {
-    color: #fdfdff;
+    color: #fff;
     text-align: center;
     position: absolute;
-    top: 25%;
+    top: 20%;
     width: 100%;
-    font-size: 75px;
+    font-size: 6em;
+    font-family: "NoName", Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
 }
 
 h2{
-    color: #fdfdff;
+    color: #fff;
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 33.2%;
     width: 100%;
-    font-size: 24px;
+    font-size: 1em;
+    font-family: "NoName", Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
-
+.content p {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 35.5%;
+    width: 100%;
+    font-size: 1em;
+    font-family: "NoName", Arial, sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+}
 
 .panel {
     height: 100%;
@@ -85,21 +106,7 @@ textarea {
     width: 100vw;
     opacity: 0.6;
     border-bottom: 1px #fdfdff solid;
-}
-
-/* ====== Landing Page Content Style ====== */
-#landingPage .content {
     position: center;
-    top: 25%;
-    left: 25%;
-    color: #fdfdff;
-}
-
-#landingPage .content p{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /* ====== Each Product Page ====== */
