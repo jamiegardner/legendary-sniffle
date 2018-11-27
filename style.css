@@ -6,6 +6,7 @@
 
 body {
     background-color: #000;
+    opacity: 0.9;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -13,7 +14,7 @@ body {
 
 .nav {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.9em;
+    font-size: 1.5em;
     width: 100%;
     height: 105px;
     line-height: 105px;
@@ -25,9 +26,10 @@ body {
 
 .nav img {
     float: left;
-    padding-left: 65px;
-    height: 130px;
-    width: 325px;
+    padding-left: 80px;
+    height: 100px;
+    width: 240px;
+    margin-top: 8px;
 }
 
 a {
@@ -74,35 +76,11 @@ h2{
     font-style: italic;
 }
 
-.panel {
-    height: 100%;
-    width: 100%;
-}
-
-
-audio,
-canvas,
-img,
-video {
-    vertical-align: middle;
-}
-
-textarea {
-    resize: vertical;
-}
-
 /* ===== ScrollMagic Class ====== */
 
 body {
     font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
 }
-
-.wrapper {
-    width: 90%;
-    margin: 0 5%;
-}
-
-/* ====== custom styles ====== */
 
 /* ====== Landing Page Start ====== */
 
