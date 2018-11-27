@@ -1,40 +1,78 @@
 /* START OF STYLING */
+@font-face {
+    font-family: NoName;
+    src: url(fonts/no_name_37_Regular.otf);
+}
+
 body {
-    background-color: #000000;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
 }
 
-.nav
-{
+.nav {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #fdfdff;
-    display: inline-block;
-    padding: 20px 5px;
-    width: 100px;
+    font-size: 1.9em;
+    width: 100%;
+    height: 105px;
+    line-height: 105px;
+    text-align: right;
+    right: 55px;
     position: absolute;
-
+    z-index: 1;
 }
 
-h1
-{
-    color: #fdfdff;
+.nav img {
+    float: left;
+    padding-left: 65px;
+    height: 130px;
+    width: 325px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
     text-align: center;
     position: absolute;
-    top: 25%;
+    top: 20%;
     width: 100%;
-    font-size: 75px;
+    font-size: 6em;
+    font-family: "NoName", Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
 }
 
 h2{
-    color: #fdfdff;
+    color: #fff;
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 33.2%;
     width: 100%;
-    font-size: 24px;
+    font-size: 1em;
+    font-family: "NoName", Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
-
+.content p {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 35.5%;
+    width: 100%;
+    font-size: 1em;
+    font-family: "NoName", Arial, sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+}
 
 .panel {
     height: 100%;
@@ -55,8 +93,13 @@ textarea {
 
 /* ===== ScrollMagic Class ====== */
 
+body {
+    font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
+}
+
 .wrapper {
     width: 90%;
+    margin: 0 5%;
 }
 
 /* ====== custom styles ====== */
@@ -68,27 +111,19 @@ textarea {
     width: 100vw;
     opacity: 0.6;
     border-bottom: 1px #fdfdff solid;
-}
-
-/* ====== Landing Page Content Style ====== */
-#landingPage .content {
     position: center;
-    top: 25%;
-    left: 25%;
-    color: #fdfdff;
-}
-
-#landingPage .content p{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /* ====== Each Product Page ====== */
 .product {
     text-align: center;
     height: 100vh;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.product.fade-in{
+    opacity: 1;
 }
 
 /* ====== Product Text Style ====== */
@@ -113,6 +148,7 @@ textarea {
     background-image: url("images/studio.png");
     max-height: 100%;
     opacity: 0.6;
+    border-bottom: 1px #fdfdff solid;
 }
 
 
@@ -166,8 +202,9 @@ textarea {
 .alternative-right{
     flex: 2;
     background-image: url("images/studio.png");
-    max-height: 100%;
+    height: 100%;
     opacity: 0.6;
+    border-bottom: 1px #fdfdff solid;
 
 }
 
@@ -206,6 +243,34 @@ textarea {
 .about-page{
     text-align: center;
     height: 100vh;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+@media only screen and (min-width: 768px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+@media only screen and (min-width: 1140px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
 }
 
 /* =Footer */
