@@ -205,3 +205,15 @@ body hr {
   background-color: #FDFDFF;
 
 }
+
+.vdr-r {
+
+border-right: 0.15rem solid #fdfdff;
+
+}
+
+.vdr-l {
+
+  border-left: 0.15rem solid #fdfdff;
+  
+  }
