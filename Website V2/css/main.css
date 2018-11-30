@@ -290,7 +290,7 @@ body {
 .product {
     text-align: center;
     height: auto;
-    border-bottom: 1px #294d67 solid;
+    
     opacity: 0;
     transition: all 1s ease-out;
 }
