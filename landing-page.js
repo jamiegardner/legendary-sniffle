@@ -4,7 +4,7 @@ $(document).ready(function()
     //init ScrollMagic
 var controller = new ScrollMagic.Controller();
 
- /*var pinLandingPage = new ScrollMagic.Scene({
+ /* var pinLandingPage = new ScrollMagic.Scene({
     triggerElement: '#landingPage',
     triggerHook: 0,
     duration: '30%'
