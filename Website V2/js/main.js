@@ -47,7 +47,7 @@ function scrollNav() {
         //Animate
         $('html, body').stop().animate({
             scrollTop: $($(this).attr('href')).offset().top - 160
-        }, 200);
+        }, 800);
         return false;
     });
     $('.scrollTop a').scrollTop();
