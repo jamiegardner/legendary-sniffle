@@ -304,7 +304,7 @@ body {
 }
 
 #product03 {
-    Background-color: #546A7B;
+    background-color: #546A7B;
 }
 
 #product04 {
@@ -356,6 +356,22 @@ body {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     background-color: #06060d;
+}
+.form-group{
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.form-control{
+    border-color: #577399;
+}
+.btn-primary{
+    background-color: #577399;
+    border: 0;
+}
+.button.btn.btn-primary{
+    background-color: #577399;
 }
 
 .footer-container .wrapper {
