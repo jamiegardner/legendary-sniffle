@@ -39,7 +39,7 @@ body {
 body hr {
 
 
-  border-width: 0.15rem;
+  border-width: 2px;
 
 }
 
@@ -208,12 +208,12 @@ body hr {
 
 .vdr-r {
 
-border-right: 0.15rem solid #fdfdff;
+border-right: 1px solid #fdfdff;
 
 }
 
 .vdr-l {
 
-  border-left: 0.15rem solid #fdfdff;
+  border-left: 1px solid #fdfdff;
   
-  }
+}
