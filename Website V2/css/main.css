@@ -373,6 +373,7 @@ body {
 }
 .button.btn.btn-primary{
     background-color: #577399;
+    margin-top: 5px;
 }
 
 .footer-container .wrapper {
