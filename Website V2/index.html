@@ -1,69 +1,133 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>ScrollMagic Demo - The Basics</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="main.css">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ScrollMagic Demo - The Basics</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animate for wow.js THIS IS FOR WOW.JS WE MIGHT USE -->
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
+
+    <link rel="stylesheet" href="css/main.css">
 
 
 
-    </head>
-    <body>
-    <div id="navbar">
-       <li class="nav-item"> <a href="#about">About</a></li>
-        <li class="nav-item"> <a href="#top">Home</a></li>
-    </div>
+</head>
+
+<body>
+    <!-- <div id="navbar"> -->
+    <!--  -->
+    <!-- <a class="navbar-brand text-uppercase" href="#top"> -->
+    <!-- <img src="../img/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+    <!-- TECHA -->
+    <!-- </a> -->
+    <!-- <ul class="float-r"> -->
+    <!-- <li class="nav-item"> <a href="#about">About</a></li> -->
+    <!-- <li class="nav-item"> <a href="#top">Home</a></li> -->
+    <!-- </ul> -->
+    <!-- </div> -->
+    <!-- Navigation -->
+    <nav id="mainNav" class=" navbar navbar-expand-lg navbar-light fixed-top wow fadeIn">
+        <div class="container">
+            <a class="navbar-brand text-uppercase" href="#top">
+                <img src="../img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                TECHA
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#top">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 
     <div id="top"></div>
 
     <div id="intro">
-            <div class="content">
-                <h1>TECHA</h1>
-                <p> Student Review site for students by students
-                    Project created by Emma Walker, Matthew Greenhalgh, Rainer Leit, Conor Hegarty and James Gardner.
-                    Special thanks to Joe Doe</p>
-            </div>
+        <!-- <div class="content"> -->
+        <!-- <h1>TECHA</h1> -->
+        <!-- <p> Student Review site for students by students -->
+        <!-- Project created by Emma Walker, Matthew Greenhalgh, Rainer Leit, Conor Hegarty and James Gardner. -->
+        <!-- Special thanks to Joe Doe</p> -->
+        <!-- </div> -->
+
+        <div class="mx-auto text-center">
+            <h1 class="mx-auto my-0 text-uppercase text-white ">Techa</h1>
+            <h2 class="text-white mx-auto mt-2 mb-3"> Student Review site for students by students</h2>
+            <p class="text-white mb-0"> Project created by Emma Walker, Matthew Greenhalgh, Rainer Leit, Conor Hegarty
+                and
+                James Gardner.</p>
+            <p class="text-white "> Special thanks to Joe Doe</p>
+
         </div>
 
-        <div id="main" class="main-container">
+    </div>
 
-            <div id="product01" class="product">
-                <h2>product 1</h2>
-                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed.</p>
-            </div>
+    <div id="main" class="main-container">
 
-            <div id="product02" class="product">
-                <h2>product 2</h2>
-                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed.</p>
-            </div>
+        <div id="product01" class="product">
+            <h2>product 1</h2>
+            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus
+                hendrerit arcu sed erat molestie vehicula. Sed.</p>
+        </div>
 
-            <div id="product03" class="product">
+        <div id="product02" class="product">
+            <h2>product 2</h2>
+            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus
+                hendrerit arcu sed erat molestie vehicula. Sed.</p>
+        </div>
+
+        <div id="product03" class="product">
             <h2>product 3</h2>
-            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed.</p>
+            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus
+                hendrerit arcu sed erat molestie vehicula. Sed.</p>
         </div>
 
-            <div id="product04" class="product">
-                <h2>product 4</h2>
-                <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed.</p>
-            </div>
-
-        </div> <!-- #main-container -->
-
-        <div id="about" class="footer-container">
-            <footer class="wrapper">
-                <h3>2016 &copy; </h3>
-            </footer>
+        <div id="product04" class="product">
+            <h2>product 4</h2>
+            <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus
+                hendrerit arcu sed erat molestie vehicula. Sed.</p>
         </div>
-    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    </div> <!-- #main-container -->
+
+    <div id="about" class="footer-container">
+        <footer class="wrapper">
+            <h3>2016 &copy; </h3>
+        </footer>
+    </div>
+    <!-- <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 
-    <script src="main.js"></script>
-    </body>
+    <script src="js/main.js"></script>
+</body>
+
 </html>
