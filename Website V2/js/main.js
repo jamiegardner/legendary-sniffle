@@ -7,15 +7,14 @@ $(document).ready(function()
 
     //Loop through each product
     $('.product').each(function () {
-        //build a scene
+        //builds a scene
         var ourScene = new ScrollMagic.Scene({
-            triggerElement: this,
-            duration: '90%'
+            triggerElement: this
         })
             .setClassToggle(this, 'fade-in') //add class to product01
             .addTo(controller);
     });
-
+    //pins the Intro
     var pinLandingPage = new ScrollMagic.Scene({
         triggerElement: '#intro',
         triggerHook: 1,
