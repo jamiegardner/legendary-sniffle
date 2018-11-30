@@ -1,0 +1,370 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+@font-face {
+
+    src: url(fonts/no_name_37_Regular.otf);
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+
+/* ===== ScrollMagic Class ============================================== */
+
+
+body {
+    margin: 0;
+}
+
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ========= custom styles ====================== */
+/* =Main */
+
+h1,h2,h3,h4,h5{
+    font-family: noname37;
+
+}
+
+p,a {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 9999;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#navbar a:hover {
+    background-color: #577399;
+}
+
+#navbar a.active {
+    background-color: #294d67;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+}
+
+#navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar.sticky + .content {
+    padding-top: 60px;
+}
+
+
+#intro {
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(57, 61, 63, .1)), color-stop(75%, rgba(57, 61, 63, .5)), to(#131313)), url("images/jakob-owens-231039-unsplash.jpg");
+    background: linear-gradient(to bottom, rgba(57, 61, 63, .1) 0, rgba(57, 61, 63, .5) 10%, #131313 100%), url("images/jakob-owens-231039-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+#intro h1{
+
+    display: block;
+    font-size: 6em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}
+#intro .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.product {
+    text-align: center;
+    height: 100vh;
+    border-bottom: 1px #294d67 solid;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+#product01 {
+   background-color: #3DB3CE;
+}
+#product02 {
+    background-color: #75C695;
+}
+#product03 {
+      background-color: #F5876F;
+}
+#product04 {
+    background-color: #f5e18f;
+}
+
+.product.fade-in{
+    opacity: 1;
+}
+
+.product p {
+    max-width: 300px;
+    margin: 0 auto;
+    color: #294D67;
+}
+
+#main{
+    position: relative;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+/* =Footer */
+.footer-container {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #06060d;
+}
+.footer-container .wrapper {
+    width: 80%;
+    max-width: none;
+    margin: 0 10%;
+}
+.footer-container h3 {
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal;
+}
+.footer-container a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* =========== Media Queries ================================ */
+
+@media only screen and (min-width: 480px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+@media only screen and (min-width: 768px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+@media only screen and (min-width: 1140px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+/* ============== Helper classes ===================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==================== Print styles ======================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
