@@ -365,6 +365,7 @@ body {
 
 .form-control{
     border-color: #577399;
+    text-align: center;
 }
 .btn-primary{
     background-color: #577399;
