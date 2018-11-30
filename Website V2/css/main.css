@@ -295,11 +295,11 @@ body {
 }
 
 #product01 {
-    background-color: #3DB3CE;
+    background-color: #546A7B;
 }
 
 #product02 {
-    background-color: #75C695;
+    background-color: #577399;
 }
 
 #product03 {
@@ -314,10 +314,32 @@ body {
     opacity: 1;
 }
 
-.product p {
-    max-width: 300px;
-    margin: 0 auto;
-    color: #294D67;
+/* .product p { */
+    /* max-width: 300px; */
+    /* margin: 0 auto; */
+    /* color: #294D67; */
+/* } */
+
+.vdr-r {
+
+    border-right: 1px solid #fdfdff;
+    
+    }
+    
+    .vdr-l {
+    
+      border-left: 1px solid #fdfdff;
+      
+    }
+    
+.product hr {
+
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #FDFDFF;
+    margin: 1em 0;
+    padding: 0; 
 }
 
 #main {
