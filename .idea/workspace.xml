@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="158663c7-546a-4c27-9280-1106b77da767" name="Default" comment="Created a loop for the scroll magic fade">
+    <list default="true" id="158663c7-546a-4c27-9280-1106b77da767" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website V2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website V2/index.html" afterDir="false" />
     </list>
@@ -67,8 +67,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website V2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="327" column="60" selection-start-line="327" selection-start-column="60" selection-end-line="327" selection-end-column="60" />
+            <state relative-caret-position="306">
+              <caret line="400" column="36" selection-start-line="400" selection-start-column="36" selection-end-line="400" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -118,9 +118,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="y" value="1276" />
-    <option name="width" value="3848" />
+    <option name="x" value="-6" />
+    <option name="y" value="1275" />
+    <option name="width" value="3849" />
     <option name="height" value="828" />
   </component>
   <component name="ProjectView">
@@ -128,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,6 +144,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +203,8 @@
       <workItem from="1542975634288" duration="13000" />
       <workItem from="1542975991438" duration="5114000" />
       <workItem from="1543571924575" duration="1192000" />
-      <workItem from="1544567492584" duration="4173000" />
+      <workItem from="1544567492584" duration="4458000" />
+      <workItem from="1544624067889" duration="3412000" />
     </task>
     <task id="LOCAL-00001" summary="Landing Page">
       <created>1539352714098</created>
@@ -506,28 +507,35 @@
       <option name="project" value="LOCAL" />
       <updated>1542983021683</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Started putting scripts onto site">
+      <created>1544572900252</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1544572900252</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53022000" />
+    <option name="totallyTimeSpent" value="56719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="851" width="2565" height="552" extended-state="0" />
+    <frame x="-4" y="850" width="2566" height="552" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123088986" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12304075" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5233242" side_tool="true" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.523511" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.47648904" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4766758" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49641833" weight="0.39944905" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49641833" weight="0.39944905" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -585,9 +593,17 @@
     <MESSAGE value="added scroll magic for the first product" />
     <MESSAGE value="added scroll magic for all the products" />
     <MESSAGE value="Created a loop for the scroll magic fade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a loop for the scroll magic fade" />
+    <MESSAGE value="Started putting scripts onto site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started putting scripts onto site" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Website V2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5576">
+          <caret line="328" column="196" selection-start-line="328" selection-start-column="196" selection-end-line="328" selection-end-column="196" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ScrollMagic-2.0.6/js/demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-576" />
@@ -633,8 +649,8 @@
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/Website V2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="327" column="60" selection-start-line="327" selection-start-column="60" selection-end-line="327" selection-end-column="60" />
+        <state relative-caret-position="306">
+          <caret line="400" column="36" selection-start-line="400" selection-start-column="36" selection-end-line="400" selection-end-column="36" />
         </state>
       </provider>
     </entry>
