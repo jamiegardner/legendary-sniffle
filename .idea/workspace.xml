@@ -67,8 +67,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website V2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="400" column="36" selection-start-line="400" selection-start-column="36" selection-end-line="400" selection-end-column="36" />
+            <state relative-caret-position="257">
+              <caret line="353" column="62" selection-start-line="353" selection-start-column="62" selection-end-line="353" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -119,9 +119,9 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-6" />
-    <option name="y" value="1275" />
+    <option name="y" value="1174" />
     <option name="width" value="3849" />
-    <option name="height" value="828" />
+    <option name="height" value="929" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -204,7 +204,9 @@
       <workItem from="1542975991438" duration="5114000" />
       <workItem from="1543571924575" duration="1192000" />
       <workItem from="1544567492584" duration="4458000" />
-      <workItem from="1544624067889" duration="3412000" />
+      <workItem from="1544624067889" duration="6040000" />
+      <workItem from="1544648048024" duration="44000" />
+      <workItem from="1544648106392" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="Landing Page">
       <created>1539352714098</created>
@@ -514,23 +516,37 @@
       <option name="project" value="LOCAL" />
       <updated>1544572900252</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="3/4 scripts successfully onto site">
+      <created>1544628274538</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1544628274538</updated>
+    </task>
+    <task id="LOCAL-00046" summary="4/4 scripts successfully onto site">
+      <created>1544630225183</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1544630225183</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56719000" />
+    <option name="totallyTimeSpent" value="60554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="850" width="2566" height="552" extended-state="0" />
+    <frame x="-4" y="783" width="2566" height="619" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12304075" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.523511" side_tool="true" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5242947" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.47648904" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.47570533" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -594,9 +610,18 @@
     <MESSAGE value="added scroll magic for all the products" />
     <MESSAGE value="Created a loop for the scroll magic fade" />
     <MESSAGE value="Started putting scripts onto site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started putting scripts onto site" />
+    <MESSAGE value="3/4 scripts successfully onto site" />
+    <MESSAGE value="4/4 scripts successfully onto site" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/4 scripts successfully onto site" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Website V2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10421">
+          <caret line="613" column="158" selection-start-line="613" selection-start-column="158" selection-end-line="613" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Website V2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5576">
@@ -649,8 +674,8 @@
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/Website V2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="400" column="36" selection-start-line="400" selection-start-column="36" selection-end-line="400" selection-end-column="36" />
+        <state relative-caret-position="257">
+          <caret line="353" column="62" selection-start-line="353" selection-start-column="62" selection-end-line="353" selection-end-column="62" />
         </state>
       </provider>
     </entry>
