@@ -67,8 +67,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website V2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="353" column="62" selection-start-line="353" selection-start-column="62" selection-end-line="353" selection-end-column="62" />
+            <state relative-caret-position="138">
+              <caret line="608" column="140" selection-start-line="608" selection-start-column="140" selection-end-line="608" selection-end-column="140" />
             </state>
           </provider>
         </entry>
@@ -83,6 +83,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -93,6 +94,7 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/landing-page.js" />
+        <option value="$PROJECT_DIR$/Website V2/css/main.css" />
         <option value="$PROJECT_DIR$/Website V2/index.html" />
       </list>
     </option>
@@ -119,9 +121,12 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-6" />
-    <option name="y" value="1174" />
+    <option name="y" value="1189" />
     <option name="width" value="3849" />
-    <option name="height" value="929" />
+    <option name="height" value="914" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -139,6 +144,12 @@
               <item name="legendary-sniffle11" type="b2602c69:ProjectViewProjectNode" />
               <item name="legendary-sniffle11" type="462c0819:PsiDirectoryNode" />
               <item name="Website V2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="legendary-sniffle11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="legendary-sniffle11" type="462c0819:PsiDirectoryNode" />
+              <item name="Website V2" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,7 +217,8 @@
       <workItem from="1544567492584" duration="4458000" />
       <workItem from="1544624067889" duration="6040000" />
       <workItem from="1544648048024" duration="44000" />
-      <workItem from="1544648106392" duration="1163000" />
+      <workItem from="1544648106392" duration="1190000" />
+      <workItem from="1544725032434" duration="8323000" />
     </task>
     <task id="LOCAL-00001" summary="Landing Page">
       <created>1539352714098</created>
@@ -530,23 +542,30 @@
       <option name="project" value="LOCAL" />
       <updated>1544630225183</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="4/4 scripts successfully onto site">
+      <created>1544664539788</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1544664539788</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60554000" />
+    <option name="totallyTimeSpent" value="68904000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="783" width="2566" height="619" extended-state="0" />
+    <frame x="-4" y="793" width="2566" height="609" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12304075" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12304075" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5242947" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5246865" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.47570533" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.47531348" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -617,6 +636,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Website V2/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6001">
+          <caret line="353" column="62" selection-start-line="353" selection-start-column="62" selection-end-line="353" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website V2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10421">
           <caret line="613" column="158" selection-start-line="613" selection-start-column="158" selection-end-line="613" selection-end-column="158" />
         </state>
@@ -672,10 +698,17 @@
     <entry file="file://$USER_HOME$/Downloads/basics/01-intro/start/css/main.css" />
     <entry file="file://$PROJECT_DIR$/landing-page.js" />
     <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/Website V2/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="350" column="1" lean-forward="true" selection-start-line="350" selection-start-column="1" selection-end-line="350" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Website V2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="353" column="62" selection-start-line="353" selection-start-column="62" selection-end-line="353" selection-end-column="62" />
+        <state relative-caret-position="138">
+          <caret line="608" column="140" selection-start-line="608" selection-start-column="140" selection-end-line="608" selection-end-column="140" />
         </state>
       </provider>
     </entry>
