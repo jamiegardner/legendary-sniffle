@@ -67,8 +67,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website V2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="608" column="140" selection-start-line="608" selection-start-column="140" selection-end-line="608" selection-end-column="140" />
+            <state relative-caret-position="206">
+              <caret line="470" column="56" selection-start-line="470" selection-start-column="56" selection-end-line="470" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -121,9 +121,9 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-6" />
-    <option name="y" value="1189" />
+    <option name="y" value="1188" />
     <option name="width" value="3849" />
-    <option name="height" value="914" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -218,7 +218,9 @@
       <workItem from="1544624067889" duration="6040000" />
       <workItem from="1544648048024" duration="44000" />
       <workItem from="1544648106392" duration="1190000" />
-      <workItem from="1544725032434" duration="8323000" />
+      <workItem from="1544725032434" duration="10583000" />
+      <workItem from="1544743845398" duration="508000" />
+      <workItem from="1544748289315" duration="1753000" />
     </task>
     <task id="LOCAL-00001" summary="Landing Page">
       <created>1539352714098</created>
@@ -549,23 +551,37 @@
       <option name="project" value="LOCAL" />
       <updated>1544664539788</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Pros and cons of each done">
+      <created>1544741446535</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1544741446536</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Specs done">
+      <created>1544743813258</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1544743813258</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68904000" />
+    <option name="totallyTimeSpent" value="73425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="793" width="2566" height="609" extended-state="0" />
+    <frame x="-4" y="792" width="2566" height="610" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12304075" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12304075" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5246865" side_tool="true" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5254702" side_tool="true" visible="true" weight="0.014084507" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.47531348" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.47452977" visible="true" weight="0.014084507" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -631,9 +647,25 @@
     <MESSAGE value="Started putting scripts onto site" />
     <MESSAGE value="3/4 scripts successfully onto site" />
     <MESSAGE value="4/4 scripts successfully onto site" />
-    <option name="LAST_COMMIT_MESSAGE" value="4/4 scripts successfully onto site" />
+    <MESSAGE value="Pros and cons of each done" />
+    <MESSAGE value="Specs done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Specs done" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Website V2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9248">
+          <caret line="544" column="40" selection-start-line="544" selection-start-column="40" selection-end-line="544" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website V2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9248">
+          <caret line="544" column="40" selection-start-line="544" selection-start-column="40" selection-end-line="544" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Website V2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6001">
@@ -707,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website V2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="608" column="140" selection-start-line="608" selection-start-column="140" selection-end-line="608" selection-end-column="140" />
+        <state relative-caret-position="206">
+          <caret line="470" column="56" selection-start-line="470" selection-start-column="56" selection-end-line="470" selection-end-column="56" />
         </state>
       </provider>
     </entry>
